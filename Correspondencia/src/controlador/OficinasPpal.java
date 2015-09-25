@@ -3,19 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package correspondencia;
+package controlador;
+
+import vista.FrmOficinas;
 
 /**
  *
- * @author Sala319
+ * 
  */
-public class Correspondencia {
+public class OficinasPpal {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      new Controlador_oficina(new FrmOficinas()).iniciar(); 
     }
     
 }
